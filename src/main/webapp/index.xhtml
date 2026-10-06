@@ -1,1 +1,23 @@
-<ui:composition xmlns="http://www.w3.org/1999/xhtml" xmlns:ui="jakarta.faces.facelets" xmlns:h="jakarta.faces.html" template="template.xhtml"><ui:define name="conteudo"><h1>Seu catálogo, organizado.</h1><p class="intro">Gerencie marcas, categorias e produtos em um só lugar.</p><div class="cards"><section class="panel"><h2>Marcas</h2><p>Identificação dos fabricantes e situação ativa.</p><h:link outcome="marcas" value="Gerenciar marcas →"/></section><section class="panel"><h2>Categorias</h2><p>Organização em categorias e subcategorias.</p><h:link outcome="categorias" value="Gerenciar categorias →"/></section><section class="panel"><h2>Produtos</h2><p>Preços, estoque e imagens do catálogo.</p><h:link outcome="produtos" value="Gerenciar produtos →"/></section></div></ui:define></ui:composition>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml" xmlns:ui="jakarta.faces.facelets" xmlns:h="jakarta.faces.html" template="template.xhtml">
+  <ui:define name="conteudo">
+    <h1>Seu catálogo, organizado.</h1>
+    <p class="intro">Gerencie marcas, categorias e produtos em um só lugar.</p>
+    <div class="cards">
+      <section class="panel">
+        <h2>Marcas</h2>
+        <p>Identificação dos fabricantes e situação ativa.</p>
+        <h:link outcome="marcas" value="Gerenciar marcas →"/>
+      </section>
+      <section class="panel">
+        <h2>Categorias</h2>
+        <p>Organização em categorias e subcategorias.</p>
+        <h:link outcome="categorias" value="Gerenciar categorias →"/>
+      </section>
+      <section class="panel">
+        <h2>Produtos</h2>
+        <p>Preços, estoque e imagens do catálogo.</p>
+        <h:link outcome="produtos" value="Gerenciar produtos →"/>
+      </section>
+    </div>
+  </ui:define>
+</ui:composition>
