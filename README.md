@@ -4,8 +4,8 @@ Atividade prática de **Programação WEB 2**, professor **Danilo Souza Almeida*
 
 ## Integrantes
 
-- Bruno (completar nome completo antes da entrega).
-- Adicionar os demais integrantes, se houver.
+- Bruno Ribeiro Silva
+
 
 ## Solução
 
