@@ -18,10 +18,12 @@
     <main>
       <ui:insert name="conteudo"/>
     </main>
-    <p:confirmDialog global="true" showEffect="fade" hideEffect="fade">
-      <p:commandButton value="Cancelar" type="button" styleClass="ui-confirmdialog-no ui-button-secondary"/>
-      <p:commandButton value="Excluir" type="button" styleClass="ui-confirmdialog-yes ui-button-danger"/>
-    </p:confirmDialog>
+      <h:form>
+        <p:confirmDialog global="true" showEffect="fade" hideEffect="fade">
+          <p:commandButton value="Cancelar" type="button" styleClass="ui-confirmdialog-no ui-button-secondary"/>
+          <p:commandButton value="Excluir" type="button" styleClass="ui-confirmdialog-yes ui-button-danger"/>
+        </p:confirmDialog>
+      </h:form>
     <footer>Programação WEB 2 · ADS · Módulo de catálogo</footer>
   </h:body>
 </html>
